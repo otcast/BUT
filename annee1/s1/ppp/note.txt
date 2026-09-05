@@ -1,0 +1,73 @@
+	projet profetionnel personnalisé
+
+R112 = PPP -> parler des metier seulement le mardi 01 // par manque de temps : electricité regime continue
+R104 = electricité : regime alternative
+R105 = support et traitement du signal
+
+
+Alternance : à chercher le plus tôt possible + forum proposé par l'école au cours de l'année
+
+presentation des dif métiers possible 
+montrer une vision global des déboucher de la formation
+
+3 grandes categorie :
+
+INFORMATIQUE : 
+	dev informatique en lien avec le reseau, dev d'appli général, surtout en dev oppperationnel
+
+RESEAU INFORMATIQUE : 
+	admistrateur systeme, administrateur réseaux
+
+TELECO & INFRASTRUCTURE RESEAU :
+	reseau physique (optique et cuivre), le resau par antaine, les resaux marginaux (satelitaire, télévision) => travail de terrain (maintenance et gestion physique) / pilotage de projet (ex pour ajouter la fibre dans un nouveaux quartier; deploiment de grosse anteine par infrastructure effemaire)
+
+
+Cyber surtout presente en reseau mais tout de même étudier partout même physique (transmition du signal)
+
+_________________
+
+notre force : la double competance , la telecoms est très demander mais peu étudier
+
+
+Preparer un programme de revision chill
+	attention à faire des fiches reutilisables pour les années suivantes
+
+JOURS A (2h de travail perso)
+6h-7h30 : preparation 
+7h30-8h : route
+8h-18h : cours 
+18h-20h30 : route + famille + repas
+20h30-21h30 : mise au propre des cours + création de fiche
+21h30-22h30 : travail pratique
+22h30-23h30 : temps pour moi
+23h30 : sommeil
+
+JOURS B (1h de travail perso)
+6h-7h30 : preparation
+7h30-8h : route
+8h-18h : cours
+18h-20h30 : route + famille + repas
+20h30-21h30 : mise au propre des cours + création de fiche
+21h30-23h30 : temps pour moi
+23h30 : sommeil
+
+JOURS AVANT EVAL (3h de travail perso)
+6h-7h30 : preparation
+7h30-8h : route
+8h-18h : cours
+18h-20h30 : route + famille + repas
+20h30-23h30 : revision
+23h30 : sommeil
+
+WEEK-END (2h de travail perso)
+9h-10h : reveil
+10h-12h : refaire les TDs et relire les cours de la semaine
+12h-14h : repas
+14h-20h30 : famille
+20h30-21h30 : repas
+21h30-23h30 : temps pour moi
+23h30 : sommeil
+
+________________
+
+

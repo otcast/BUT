@@ -1,0 +1,27 @@
+prof : Stéphane Mascaron
+SAE 1.02 travail avec rasberryPi
+
+que des revision de ce que j'ai vu en prep et ing
+
+elements d'un ordi :
+	CPU (nTreads)
+	carte/puce graphique
+	RAM
+	SSD/DD
+	carte mère
+	alimentation
+	ventilo
+	ecrant/clavier/souris
+
+		BIOS
+
+
+threads = pdv materiel : un demi-coeur / pdv info fil d'execution
+
+avec un seul cpu : multitâche préemptif ==> roulement par nanoseconde 
+avec plusieur coeur : multitâche réel, un coeur un procesus avec possibilité de sistème paralelle possible mais très rar
+
+linux = noyau GNU/Linux = SE
+
+sous linux tout est un fichier : les donnée, les periferique ...
+

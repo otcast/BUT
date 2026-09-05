@@ -1,0 +1,130 @@
+resource, tp et ds sur e-learn
+retard CM impossible (porte fermé = on ne rentre pas)
+
+4 modules, evaluation sous format de QCM donc un max d'evaluation -> travail constant de la matière. 4/5 ds par module. Peuvent être toute les semaine voir toute les deux semaines.
+
+correction tp expliqué -> prise de note simplifier
+
+peut avoir des pts negatifs (souvenir souvenir)
+
+conseil : utilisation le minimum la calculatrice (comme d'hab)
+
+math sont un outils, mais reste important pour le reste et les sciences -> base de la culture scientifique
+
+controle et tp de la même forme + peu de changement + tp faisable à l'infinit
+
+maths = gros coef
+
+pas les calculs de tête en eval toujours écrire les calculs dans le cahier de brouillon pour les ds
+________
+
+pour l'aprentissage de la matière : refaire les tds + mise au propre des corrections 
+
+si question par mail ne pas oublier de faire un retour
+
+_________
+
+cours projeter , pas de recopiage autorisé (present sur e-learn), ma prise de note se contentera d'être les questions sur le cours + les informations les ++ importantes
+
+cahier de brouillon autoriser en ds -> on peut y faire des fiches
+
+_________________
+
+	Rappel Fonction 
+
+f(x) = (x²+1)/(x-2)
+f(1) = (1²+1)/(1-2) = 2/(-1) = -2
+f(-2) = ((-2)²+1)/(-2-2) = 5/(-4) = -5/4
+
+
+	Domaine de definition
+
+f(x)=1/x appartient au domaine de definition : R\{0} (pref de la prof) R*
+
+f(x)=(2x-5)/(3x+2)
+étude du domaine de definition :
+3x+2=0 -> x = -2/3
+donc x -> f(x) = (2x-5)/(3x+2) à pour domaine de definition : R\{-2/3}
+
+f(x)=racinecarré(x) avec x appartient à D = [0; +infinit] pour dans les reels
+
+	Antecedent
+
+	Fonction AFFINES
+
+f(x)=ax+b
+
+tracé de la droite f(x)= -2x+3
+f(0) = 3
+f(1.5) = 0
+
+trouver l'expretion des fct affines
+
+f(-1) = 6 f(1)= 1
+donc a = 5/2
+la courbe est decroissante donc f est de la forme f(x) = -6 + b
+recupération de b :
+f(1)= -5/2 + b = 1
+donc 
+b = 1+5/2 = 7/2
+d'où x -> f(x)=-5/2+7/2
+
+	PARITE
+
+etude de la parité des fct :
+
+f(x)=(1+x²)/x² domaine de definition R/{0} de plus f(-x) = (1+(-x)²)/(-x)² = (1+x²)/x² = f(x) donc f est pair
+f(x)=2x/(1+x²) domaine de definition R f(-x) = -2x/(1+(-x)²) = -2x/(1+x²)= -(2x/1+x²)-f(x) donc f est impair
+f(x)=(1+x)/(1+x²) domaine de definition R\{1}, NON Symetrique par rapport ç 0 donc f ni pair ni impair
+
+	Fonction definies par morceaux
+
+
+	translation
+
+translation horizontal
+
+
+retard decal à droite
+avance decal à gauche
+
+g(x) = f(x+k) avec g la translation de f et k le coefficient de translation
+si k < 0 signal retarder
+si k > 0 signal avancer
+
+
+translation au ordonnées = offset
+
+g(x) = f(x)+k
+
+
+	Dilatation
+
+dilatation horizontal/homothétie : si on considère une fct t->f(t), on dit que par l'homothétie de rapport k elle devient t->(kt)
+homothétie par k=-1 -> f(kt) est la symetrie par l'axe des ordonées de f(t)
+
+dilatation verticale/amplification
+amplification par k=-1 -> kf(t) est la symetrie par l'axe des absisse de f(t)
+
+	Les signaux
+
+la fonction échelon unitaire de Heaviside
+	Gamma(t) = 1 si t >= 0 et 0 aileurs
+
+un signal causal signifie que le signal est nul dans les négatifs
+l'échelon de Heaviside est utilisé pour rendre compte de la causalité : on multiplie un signal non causal avec l'échelon rend le signal causal
+
+la fonction rectangle
+rectd(t)= 1 si t € [-d/2, d/2] 0 sinon
+Aire du rectangle : 1*d = d -> l'apse de temps où le signal est étudier
+
+utiliser pour creer une fenetre dans un signal
+
+La rampe unitaire causale
+r(t) = t si t>= 0 sinon 0
+
+la fenetre triangulaire :
+trid(t)=1-2/d|t| si t € [-d/2,d/2] 0 sinon
+
+La fonction signe :
+sgn(t)(t) = 1 si t>0 -1 sinon

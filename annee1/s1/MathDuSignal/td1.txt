@@ -1,0 +1,14 @@
+Correction TD1
+
+1) coef directeur : un nombre qui mesure l'incli d'une droite droite dans un repère; dy/dx or v(2 3) -> dy/dx=3/2  ===> (2 3) col à (8 12) or (2 3) non col à (1 3/2) | colinearité si (c d) = x(1 a)
+2) f(x) = 2x si on prends f(2) = 2*2 = 4 or le points (2 4) n'appartient pas à la droite passant par (0 0) et (2 2)
+3) vrai car elles sont la meme inclinaisont pour pouvoir etre parallele
+4) affine : y=ax+b / x=ay+b == y = (1/a)*x - b/a / ax+by+c=0 == y=-((c+ax)/b)
+5) 4x-3y-12 = 0 par factorisation par 12 on obtient x/3 + y/4 - 1 = 0 ___ 4(x-6) = 3(y-4) == 4x-24=3y-12 == 4x-3y-12 ___ 4x-3y-12=0 == 4x-12=3y == y=4/3-4 ___ f(3,0)=4*3-3*0-12 = 12-12 = 0
+6)ax+by+c=0 : esq cartesienne ==> vecteur directuer de ax+by+c=0 revient à -b a or ici (-3 2)=3(-1 2/3 ) == (1 -2/3)7
+7) 2-1 = 1 -3-1 =-4 donc la pente est de -4 ___ a pour eq y=-4x+5
+8) y = 1/2x car pour obtenir y on fait pentex + b et ici b=0 et pente = 1/2 ==> la pente est 2 et 2x+1 = 1 pour x=0 et 2x-1 = -1 pour x=0 donc le pts (0 0) n'est pas sur la courbe des deux eq donnée or il est present sur notre courbe etudier.
+9) pour x=0, il semble que y =-1 ___ sa pente est de 1/4 ___ a pour eq réduite y = 1/4x-1 car y(0)=-1 ___ y = 12/4 -1 = 3 - 1 = 2 donc (12 2) est un pts de la droite
+10) pour x=0, y=3 ___ sa pente est -2 donc l'eq est y=-2+3 avec 3 l'ordoné à l'origine
+11) si xA diff xB et yA = yB pour tout A B € |R² ___ peut avoir une pente négative si xA < xB ___ par def une droite à toujours un vect directeur ___ xA-xB)/yA-yB faux car la bonne formule est (yA-yB)/(xA-xB) ssi yA diff yB
+
