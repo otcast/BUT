@@ -68,7 +68,6 @@ b) (1010010000) en b2 = (656) en b10 = (290) en b16
 
 c) (110110111111) en b2 = (3519) en b10 = (DBF) en b16
 
-Methode par rapport de puissance  (ex base16 = 4base2)
 
 passage de b^k à b
 Pour passer de b^k à b, exprimer chaque digit de b^k en kdigits en base b) : methode direct
