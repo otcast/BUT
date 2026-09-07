@@ -1,0 +1,6 @@
+				TD2
+		Codage de base utilisé dans les systèmes numériques
+
+	I/Binaire naturel et binaire réfléchi
+
+1/ code binaire réfléchi sur 4bits 
