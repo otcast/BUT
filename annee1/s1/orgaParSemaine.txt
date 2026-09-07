@@ -3,6 +3,7 @@
 	Maths du signal
 mettre au propre les exercices sur le cahier de "brouillon"
 faire fiche regle trigonometrique
+revoir la fonction triangle et ses regles
 
 	R106
 mettre au propre le cours sur feuille
