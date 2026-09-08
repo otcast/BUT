@@ -1,0 +1,19 @@
+1/ on peut adressés 254 équipements avec ce masque réseau (le 0 representant le réseau)
+
+2/ on calcul par 
+
+3/ net id
+
+4/ host id
+
+5/ net id et host id sont déterminé par 
+
+6/ IP : protocole de communication par decoupage de paquet sans verification de réussite
+
+7/ TCP : protocole de communication par découpage avec suivi de courier (si le paquet n'est pas anoncer arriver il le renvoie)
+
+8/ BROADCAT : est l'adresse de diffusion, pour prevenir que le paquet est bien arriver il faut donner l'adresse de diffusion pour que le message de validation puisse arriver
+
+9/ UNICAST : conversation entre le reseau et un équipement precis
+
+10/ MULTICAST : quand un réseau recupère les id de l'ensembles des pc sans distinction du besoin

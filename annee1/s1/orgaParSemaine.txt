@@ -11,3 +11,6 @@ mettre au propre le cours sur feuille
 
 	R108
 finir le script shell
+
+	Initiation Réseau
+aller sur internet pour corriger le td1
