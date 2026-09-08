@@ -11,22 +11,22 @@
 # => script va automatiquement positionner le repertoir en fct du rep de l'utilisateur
 #
 # ex : ouvrir une session utilisateur : su - <nom_utilisateur>
-
-$USER = 
+ 
 echo "Vous voulez travailler en tant qu'utilisateur taper U et temps que groupe taper G"
 read = choix
-if $CHOIX -eq U then
+
+if [ "$choix" = "U"]; then
 	cd /home/$USER
 else
-	if [$USER == "user2"] || [$USER == "user4"] then
+	if ["$USER" = "user2"] || [$USER = "user4"]; then
 		echo "Vous faites partie des deux groupes, donnez le numéro du groupe dans lequel vous voulez travailler?"
 		read reponse
-		if $reponse == 1 then
+		if ["$reponse" -eq 1]; then
 			cd /home/groupe1
 		else
 			cd /home/groupe2
 		fi
-	elif $USER == "user1" then
+	elif ["$USER" = "user1"] then
 		cd /home/groupe1
 	else
 		cd /home/groupe2

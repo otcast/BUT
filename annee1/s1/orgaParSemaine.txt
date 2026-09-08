@@ -9,6 +9,5 @@ revoir la fonction triangle et ses regles
 mettre au propre le cours sur feuille
 
 
-	Matiere1
-
-	Matiere2
+	R108
+finir le script shell
