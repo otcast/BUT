@@ -61,4 +61,9 @@ log(10000) = 4
 log2(2050) = log10(2050)/log10(2) 
 
 n = log2(N+2)
-log2(x)=log10(x)/log10(2) 
+log2(x)=log10(x)/log10(2)
+
+checksum : compte les 1 à l'émission et la reception et compare : si les valeurs sont differentes c'est qu'il y a un problème (l'absance de la diff ne verifie pas la validité du message)
+
+
+ 
