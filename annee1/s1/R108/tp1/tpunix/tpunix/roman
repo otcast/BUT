@@ -1,0 +1,14 @@
+The Standard Roman Character Seta
+
+The Standard Roman character set is an extended version of the Macintosh character set, documented in Volume I of the original Inside Macintosh. 
+The Macintosh character set is itself an extended version of the ASCII character set. The conventional ASCII character set, also called low ASCII, 
+defines control codes, symbols, numbers, and letters, assigning them character codes from $00 through $7F. 
+The Macintosh character set adds codes from $80 through $D8, representing accented characters and additional symbols. Current Macintosh file-system sorting, as well as the sorting order used by several Text Utilities routines such as RelString, is based on the Macintosh character set.
+
+The Standard Roman character set adds more accented forms, symbols, and diacritical marks, assigning them character codes from $D9 through $FF. 
+It thus consists of all the character codes from $00-$FF, and it includes uppercase versions of all of the lowercase accented forms, a number of symbols, 
+and other forms.
+
+The Standard Roman character set is the closest to a universal character encoding that exists in the Roman script system. 
+The Standard Roman characters are available in most Roman outline fonts, but not all are available in the Apple bitmapped versions of Chicago, Geneva, 
+New York, and Monaco.

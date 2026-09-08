@@ -1,0 +1,32 @@
+		TP1
+	Système de fichier
+
+Objectif du TP :
+Ce tp a pour objectif de vous familiariser avec la manipulation des fichiers que ce soit d'un point de vu graphique (serveur X Gnome) ou en ligne de commandes. Larborescence est à faire une fois avec l'interface graphique et une seconde fois avec les commandes UNIX!
+
+Construire une arborescence (Graphique et CLI)
+
+IV/Manipulation en lignes de commandes :
+
+1/ touch exam
+2/ -rw-rw-r-- 1 cytech 0 sept. 8 08:26 exam
+3/ ??
+4/ cd Doo/Be/
+5/ cp ../../exam ../../Pa/Ta/Tras/
+6/ cp exam Doo/Be/Doo
+7/
+8/ tar xvzf tpunix.tar.gz -C tpunix/
+9/ cp modele.txt ../../fic1.txt
+10/ less fic1.txt
+11/ cp fic1.txt Glop/fic2.txt
+12/ mv fic1.txt Pa/Ta/Tras/
+13/ mv Glop/fic2.txt Glop/fic3.txt
+14/ rm Pa/Ta/Tras/fic1.txt
+15/ rm -r Pa
+16/ umask est un parametre permetant la gestion des permissions par défauts de tout docier ou ficher dans le système.
+17/ 0002
+18/ umask 644
+19/ ??
+20/ umask 006
+21/ ??
+
