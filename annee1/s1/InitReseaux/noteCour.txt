@@ -1,0 +1,64 @@
+mail : pascallbernard.cd@gmail.com
+https://infoeleves.pbformation.fr
+
+
+		CM
+
+protocole : ensemble de regles convenues à l'avance pour permettre à deux parties de communiquer et de se comprendre
+
+protocole reseau : 
+ - format messages (champs et struct)
+ - ordre des échanges (qui parle en premier, comment on repond, comment on clôture)
+ - conduite à tenir en cas de problème (message perdu, erreur, délai dépassé)
+
+
+				Chapitre 1
+			Le protocole IP
+
+IP (internet protocol) s'occupe d'une seule chose : faire voyager des paquets de données d'une machine à une autre, à travers un réseau de réseaux. Il ne garantie rien, ni l'ordre d'arrivée, ni même l'arrivée. C'est un service au "mieux effort" (best effort)
+
+message découper en paquets adressés, acheminés de routeur en routeur, ouis réassemblés à l'arrivée
+
+IP envoie mais ne garantie ni arrivé ni ordre
+IP comparable au fonctionnement des code postaux
+Saut du paquet descider par le routeur
+Personne ne connaît le trajets complet à l'avance : car on avance de routeur en routeur qui desside du trajet
+
+	Principe du découpage en paquets
+- taille max des paquets (MTU)
+- équitable entre plusieurs communication
+- resilience aux pertes -si un paquet se perd, seul ce fragment doit être renvoyé
+
+
+fichier/message complet
+[decoupage]
+1/donnee 2/donnee 3/donne
+[reassemblage]
+fichier/message complet 
+
+	L'adressage IPv4
+
+adresseIPv4 : 
+ - 32bits
+ - ecrit en 4 octets separes par des pts (exp 192.168.1.42)
+  - pour chaque octet : valeur comprise entre 0 et 255
+
+192.168.1.1 -> adresse très repondu pour box (/routeur) d'un reseau domestique
+8.8.8.8 -> adresse publique du service DNS de Google
+
+!!! -> adresse IP isolé sans son masque on son CIDR (= /24 ; indique la partie reseau du masque sous reseau)
+
+pour une adresse ip ecrite on doit ecrire le masque de sous reseau => CIDR simplifit l'ecriture :
+ex : 192.168.1.1 
+     255.255.255.255
+
+revient en CIDR : 192.168.1.1/24 (car 8 bits pour chaque octet)
+
+	Masque sous reseau
+deux machines diff doivent passer par un routeur, le masque de sous-reseaux permet, à partir d'unee adresse IP, où s'arrête la partie "réseau" et ou commence la parie "mac                                               
+
+log(10000) = 4
+log2(2050) = log10(2050)/log10(2) 
+
+n = log2(N+2)
+log2(x)=log10(x)/log10(2) 
