@@ -1,0 +1,5 @@
+ecriture Vab=R.Iab implique que la flèche courant soit dans le même sens que la flèche tension. Cette écriture est logique car un générateur impose la tension et produit un courant.
+
+Puissance fournie Pf= E.I
+		  W   V A
+Puissance dissipée dans R1 : Pr1=Ur1.I = R1.I²=Ur1²/R1

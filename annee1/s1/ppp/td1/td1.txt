@@ -1,0 +1,96 @@
+		TD1
+
+	1.9/ Exemples d'exercice
+
+Exemple 1 :
+
+1/ I3 = Ie - (I1 + I2 + If)
+2/ Ie = I1 + I2 + I3 + I4 + I5 + If || Is = Ie - I1 - I2 - I4 - I5
+3/ 
+
+correction : 
+Noeud A
+	Ie+I2 = I1 + If + I3 avec I3 = 0 (car un cable passe de la borne A à la borne B sans passer par la resistance)
+	Ie = I1 + If - I2
+	   = 2 + 5 - 6 = 1A
+Noeud B
+	I3 + If + I5 + I4 = Is
+	Is = I5 - I4 - I5
+	Is = 4 - 3 - 5
+	Is = -4A
+
+
+Exemple 2 :
+
+voir schema
+
+
+	1.10/ Exercices à résoudre
+
+Exercice 1 :
+
+q=50C dans un circuit pendant 10s t=10s
+Calcul de I
+
+I = q/t = 50/10 = 5A
+
+7200C durand 1h
+
+I = 7200/3600 = 2A
+
+1Ah durant 5min
+
+C = I/t  = 1/(5/60) = 12C
+
+
+Exercice 2 :
+
+Calcul de l'intesité I0 sachant que : I1 = -6A, I2 = 4A, I3 = 5A, I4 = -3A, I5 = 2A
+I0+I4+I5+I3 = I1+I2
+I0 = I1 + I2 - I3 - I4 - I5
+I0 = -6+4-5+3-2 = -6A
+
+Exercice 3 :
+
+Ia=2A, Ib=-3, Ic=1A
+
+I1 : I1 = Ic+Ia => I1 = 1+2 = 3A
+I2 : I2 + Ia + Ib = 0 => I2 = -Ia -Ib = -2+3 = 1A
+I3 : I3 + Ic = Ib => I3 = Ib-Ic = −3−1 = -4A
+
+
+Exercice 4 :
+
+Vab=20V Vac=10V
+Calcul de Vbc
+
+Vcb = -Vbc
+Vab = Vac + Vbc
+Vbc = Vab - Vac
+Vbc = 20 - 10
+Vbc = 10V
+Vcb = -Vbc
+Vcb = -10V
+
+Exercice 5 :
+
+Vf = 5V
+Vcf = 10V
+Vda = 5V
+Vbe = -5V
+
+1/ potentiel au pts de A,B,C,D,E
+
+Va=10V
+Vb=10V
+Vc=15V
+Vd=15V
+Ve=15V
+
+2/
+ Vab=-5V
+ Vac=
+ Vcd=
+ Vbd=
+ Vce=10V
+ Vef=
