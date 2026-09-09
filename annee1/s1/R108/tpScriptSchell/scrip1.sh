@@ -11,7 +11,8 @@
 # => script va automatiquement positionner le repertoir en fct du rep de l'utilisateur
 #
 # ex : ouvrir une session utilisateur : su - <nom_utilisateur>
- 
+!/bin/bash
+
 echo "Vous voulez travailler en tant qu'utilisateur taper U et temps que groupe taper G"
 read = choix
 
