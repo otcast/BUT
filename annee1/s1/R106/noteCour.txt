@@ -95,3 +95,84 @@ exemple : addition
 (1100)2 + (10111)2 = (100011)2 = 32 + 2 + 1 = (35)10
 
 les methodes d'opération arithmétiques sont les mêmes quand base 10, il faut juste faire attention au retenu
+
+		III/ Nombres négatifs
+	1/Méthode signe/grandeur
+
+Lorsque que le nombre est positif, on met 0 à gauche (bit de signe)
+Lorsque que le nombre est négatif, on met 1 en bit de signe
+
+exemple :
+(25)enb10 = (11001)enb2
+(+25)enb10 = (0 11001)enb2
+(-25)enb10 = (1 11001)enb2
+
+	2/Méthode complement à 2
+
+Quand c'est positif, on met 0 au bit de signe
+Quand c'est négatif, on met 1 en bit de signe, on inverse tous les bits et on rajoute 1
+
+(+25)b10 = (0 11001)b2
+(-25)b10 = (1 00111)b2
+
+(-8)b2 = (1 11000)b2
+
+5+(-8)=-3
+00101 + 11000 = 11101 = 1 0011
+
+5*(-8)=-40
+    00101
+  * 11000
+    00000
+   00000
+  000000
+ 00101
+00101
+
+1111000 => trop grand, on pert de l'information il faudrit un processeur 7bits
+
+1110111 => 001000 = (8)b10 [mauvais resultat car perte d'information]
+
+Avantage : Calcul possible
+Inconveniant : c'est long
+
+
+				Chapitre 2 : Fonction Logique
+
+		I/ Introduction
+x-->f(x)
+en base 2 (algèbre de Boole), il existe uniquement 4 fonction à une variable
+
+x || f1(x) f2(x) f3(x) f4(x)
+0 ||  0     0     1     1
+1 ||  0     1     0     1
+
+f1 -> fct nul
+f2 -> fct identité
+			       _ 
+f3 -> fct inverse (PAS/NON/NOT/x/1°)
+f4 -> fct 1
+
+x1 x2 || f1(x) f2(x) f3(x) f4(x) f5(x) f6(x) f7(x) f8(x) f9(x) f10 f11 f12 f13 f14 f15 f16
+0  1  ||  0     0     0     0     0     0     0     0     1     1   1   1   1   1   1   1
+0  1  ||  0     0     0     0     1     1     1     1     0     0   0   0   1   1   1   1
+1  0  ||  0	0     1     1     0     0     1     1     0     0   1   1   0   0   1   1
+1  1  ||  0     1     0     1     0     1     0     1     0     1   0   1   0   1   0   1
+
+f2 -> fct et (ET/AND/&/.)
+f8 -> fct ou (OU/OR/>=1/+)
+			   _
+f15 -> fct non-et (NAND/&°/.)
+			    _
+f10 -> fct non-ou (NOR/>=1°/+)
+f7 -> fct ou exclusif (xOR/=1/(+) entourer)
+
+		II/Propriétés
+						 _		 _
+x + 0 = x | x.0 = 0   | x+1 = 1  | x.1 = x   | x+x = 1	     | x.x=0	     |  x+x=x	 | x.x=x   | x.(y+z) = x.y + x.z  | x+y.z=(x+y).(x+z)  | nn(x+y)=nnx.nny (th de Morgan)
+x||x+0    | x||x.0    | x||x+1   | x||x.1    | x nnx||x+nnx  | x nnx||x.nnx  | x||x+x    | x||x.x  |			  |		       | 
+0||0+0=0  | 0||0.0=0  | 0||0+1=1 | 0||0.1=0  | 0  1 ||  1    | 0  1 ||  0    | 0||0+0=1  | 0||0.0  |			  |		       | nn(x.y)=nnx+xxy
+1||1+0=1  | 1||1.0=0  | 1||1+1=1 | 1||1.1=1  | 1  0 ||  1    | 1  0 ||  0    | 1||1+1=1  | 1||1.1  |			  |		       | nn(nnx)=x
+
+
+ 

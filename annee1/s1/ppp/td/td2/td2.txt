@@ -1,0 +1,22 @@
+		TP courant continu
+
+question 9
+Il est possible de simplifier le circuit :
+	Rq = R3 + R5 [R3 R5 en serie]
+	Rq1 = R4Rq/(R4+Rq1) [R4 Rq en dérivation]
+	Rq2 = R2 + Rq1 [R2 Rq1 en serie]
+	Rtot = Rq2R1R6/(Rq2R1+Rq2R6+R1R6)
+
+question 10
+Une baterie n'est pas necessairement l'alimentations, prenons par exemple les circuits de recharge de batterie
+
+question 11
+En serie : 
+	avantage : augmentation de la puissance pour moins de courant
+	inconveniant : augmentation de la tension (qui mène à un risque fatal)
+En parallele :
+	avantage : augmentation du courant pour moins de tension
+	inconveniant : risque de surchauffe et de perte de courant
+
+question 12
+Pour une installation optimal le mieux est de mettre en serie deux bateries et ensuite mettre les deux duo en derivation. L'interer de demarer avec 24V plutôt que les 12V necessaire au bon fonctionnement des composants electriques est que vu que le camion est très lours les premières seconde sont instable donc demarer avec plus de courant pour etre sur d'avoir le minimum demander
