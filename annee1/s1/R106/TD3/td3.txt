@@ -1,0 +1,154 @@
+				TD3
+			Algèbre de Boole
+
+COURS
+
+	x	 f(x)
+	-> |f| ->
+
+
+Algebre de Boole (base2)
+
+x || f1(x) f2(x) f3(x) f4(x)
+0 ||  0	    0 	  1	1
+1 ||  0     1	  0	1
+
+(x1, x2) --> f(x1,x2)
+
+x1 x2 || f1 f2 f3 f4 f5 f6 f7 f8 f9 10 f11 f12 f13 f14 f15 f16
+ 0  0 ||  0  0  0  0  0  0  0  0  1  1  1   1   1   1   1   1
+ 0  1 ||  0  0  0  0  1  1  1  1  0  0  0   0   1   1   1   1
+ 1  0 ||  0  0  1  1  0  0  1  1  0  0  1   1   0   0   1   1
+ 1  1 ||  0  1  0  1  0  1  0  1  0  1  0   1   0   1   0   1
+
+Pas :		ou:		Et:
+     _
+x || x		x y || x+y	x y || x.y
+0 || 1		0 0 || 0	0 0 ||  0
+1 || 0 		0 1 || 1	0 1 ||  0
+		1 0 || 1	1 0 ||  0
+		1 1 || 1	1 1 ||  1
+
+
+I∕ 
+	_   _
+S = a.b.c + a.c
+	 _ _	     _  _
+a b c || a c a.b a.b.c  a.c  S
+0 0 0 || 1 1  0    0     0   0
+0 0 1 || 1 0  0    0     1   1
+0 1 0 || 1 1  0    0     0   0
+0 1 1 || 1 0  0    0     1   1
+1 0 0 || 0 1  0    0     0   0
+1 0 1 || 0 0  0    0     0   0
+1 1 0 || 0 1  1    1     0   1
+1 1 1 || 0 0  1    0     0   0
+
+a b c || s
+0 0 0 || 0
+0 0 1 || 1
+0 1 0 || 0
+0 1 1 || 1
+1 0 0 || 0
+1 0 1 || 0
+1 1 0 || 1
+1 1 1 || 0
+
+
+
+
+II/
+a=1 . b=0 + a=0 . (b=1 + c=0)) ==> pour a=0, b=1 et c=1, S est vrai donc la fonction S satisfait la condition
+S=a.nb+na.(b+nc)
+
+III/ Demontrer :
+
+Rappel de cours :
+	x+0=x       	  | x.0=0
+	x+1=1       	  | x.1=x
+	x+y=y+x	    	  | x.y=y.x
+	x+nx=1		  | x.nx=0
+	n(x+y)=nx+ny	  | n(x.y)=nx+ny
+	x+y.z=(x+y).(x+z) | x.(y+z)=x.y+x.z
+	x+x=x		  | x.x=x
+
+a) E+E.F=E 
+	<=> E+E.F=E.1+E.F #x.1=x
+	<=> 	 =E.(1+F) #x.(y+z)=x.y+x.z
+	<=>  	 =E.1
+	<=>	 =E #x+1=1
+
+b) E.(E+F) = E
+	  <=> E.E+E.F 
+	  <=> E+E.F
+	  <=> E #d'après la formule a) que l'on a demontrer
+
+c) x+y.z=(x+y).(x+z)
+	<=> (x+y).(x+z)=x.x+x.z+y.x+y.z
+	<=> 	       =x+x.z+y.x+y.z
+	<=>	       =x.(1+z+y)+y.z
+	<=>	       =x.1+y.z
+	<=>	       =x+y.z
+
+d) E+E.nF=E
+	<=> E.1+EnF
+	<=> E.(1+nF)
+	<=> E.1
+	<=> E
+
+e) (E+F).(EnF) = E
+		<=> E.E+E.nF+F.E+F.nF
+		<=> E+E.nF+F.E+0
+		<=> E(1+nF+F)
+		<=> E.1 = E
+
+f) x.y+x.ny = x
+	    <=>x.(y+ny)
+	   <=> x.1 = x
+
+g) a+(na.x)=a+x
+	  <=> (a+na).(a+x)
+	  <=> 1.(a+x)
+	  <=> a+w
+
+h) a.(na+x)=a.x
+	  <=>a.na+a.x
+	  <=>0+a.x
+	  <=>a.x
+
+
+IV/ Simplifier algébriquement l'expression S=x.ny + n(x.y) + nx.y + x.y + n(nx.y)
+
+x.ny+n(x.y)+nx.y+x.y+n(nx.y) = x.ny + nx + ny + nx.y + n(nx) + ny # n(x.y)=nx+ny
+			     = x.ny + nx.y + (nx+x) + (ny+ny) # réecriture car x+y=y+x
+			     = (x.ny + n(x.ny)) + 1 + ny # nx+x=1 nx+nx=nx
+			     =  1 #x+1=1
+
+
+V/Donner l'équation de la fct logique S dont la table de vérité est :
+
+x y z || s
+0 0 0 || 0
+0 0 1 || 1
+0 1 0 || 1
+0 1 1 || 0
+1 0 0 || 1
+1 0 1 || 0
+1 1 0 || 0
+1 1 1 || 0		
+
+(image geogebra associé)
+x.n(y.x)+y.n(x.z)+z.n(x.y)
+
+
+VI∕ Quel est l'opérateur décrit par les chronogrammes sur le sujet :
+
+x y || s
+1 0 || 0
+0 0 || 1
+1 1 || 1
+0 1 || 0
+0 0 || 1
+
+s=x.y
+L'opérateur décrit est donc le ET
