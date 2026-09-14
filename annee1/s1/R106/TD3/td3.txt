@@ -137,8 +137,8 @@ x y z || s
 1 1 0 || 0
 1 1 1 || 0		
 
+nx.ny.z + nx.y.nz + x.ny.nz
 (image geogebra associé)
-x.n(y.x)+y.n(x.z)+z.n(x.y)
 
 
 VI∕ Quel est l'opérateur décrit par les chronogrammes sur le sujet :
@@ -150,5 +150,5 @@ x y || s
 0 1 || 0
 0 0 || 1
 
-s=x.y
-L'opérateur décrit est donc le ET
+s=nx.ny + x.y
+L'opérateur décrit est donc le nXOR : non ou exclusif ou le ET exclusif

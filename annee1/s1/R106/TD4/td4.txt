@@ -1,0 +1,69 @@
+						TD4
+				Applications de Logique Combinatoire
+
+
+PTS COURS :
+
+1 5GHz
+ 5v_____________________________
+   ()()()()()()()()()()()()()()(
+   )()()()())()()()()()())()()()
+-5v_____________________________
+
+0
+ 0v_____________________________
+
+
+I/Codeur-Decodeurs : condtruction d'un code détecteur d'erreur
+
+	I/1) Contrôle de parité
+
+strucure générale des mots-codes : m bits d'information pour k bits de contrôle
+le plus simple : un seul bit de contrôle (k=1); Cet élément est determner selon que le nb de "1" parmi les m bits données est pair (/impair)
+==> controle de parité
+
+1) Emetteur : Det un syst à base de circuits logique NAND cap de calcul auto le bit de contrôle. ici m=3, on veux le nb tot de 1 impaire
+
+x y z || s
+0 0 0 || 1
+0 0 1 || 0
+0 1 0 || 0
+0 1 1 || 1
+1 0 0 || 0
+1 0 1 || 1
+1 1 0 || 1
+1 1 1 || 0
+
+s = nx.ny.nz + nx.y.z + x.ny.z + x.y.nz
+
+2) Récepteur : Constr un syst à la recep qui permet d'all une LED en cas d'erreur d'imparité
+
+emetteur : 0 = impaire; 1 = pair -> erreur d'imp = 1 allumer LED ssi s = 1
+
+	
+	I/2) CODE de Hamming
+
+detect + corriger UNE erreur : codage par code de Hamming.
+transmition des quatres element corresp à un chiffre du syst décimal + trois elements binaires : controle de parité.
+k1,k2,k3 : les trois elements binaire du controle
+m1,m2,m3,m4 : les quatre elements binaires du msg
+position relative des elements ki et mj :
+1  2  3  4  5  6  7
+k1 k2 k3 m1 m2 m3 m4
+
+trois test de parité :
+-> T1 sur les bits 1 3 5 7
+-> T2 sur les bits 2 3 6 7
+-> T3 sur les bits 4 5 6 7
+
+le res =0 ssi le nb de 1 dans la zone considéré est pair
+la disp est choisie de telle façon que le nb binaire (T3T2T1)b2 donne la position des elements binaire erroné
+
+1) 0100
+
+k1 k2 k3 m1 m2 m3 m4 || T3 T2 T12
+         0  1  0  0  ||
+
+
+
+
