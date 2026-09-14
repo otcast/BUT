@@ -229,3 +229,135 @@ cos(pi/2 + x) = -cos(pi/2 - x)
 
 exercice
 cos(x+pi/2) = +/- sin(x) => cos(x+pi/2) = -sin(x)
+
+________________
+14/09/26
+(46-68)
+
+SINUS :
+Df = |R -> [-1;1]
+sin(-x) = -sin(x) => fct impaire => courbe sym à O
+sin(x+2pi) = sin(x) => Fct T-périodique, T = 2pi
+		    => La courbe se répète tous les 2pi
+
+COSINUS :
+Df = |R -> [-1; 1]
+cos(-x)=cos(x) => fct pair => courbe sym à (Oy)
+cos(x+2pi)=cos(x) => Fct T-périodique, T=2pi
+		  => La courbe se répète tous les 2pi
+
+
+
+On obtient la courbe de COS en décalant celle de SIN de pi/2 vers la gauche
+En effet, nous avons vu (diapo 45) que : sin(x+pi/2)=cos(x)
+
+SENS de var de sin :
+[0;pi/2] : sin est strictement croissante   [t1 et t2 dans l'int[0;pi/2], t1<t2 : sin(t1)<sin(t2)]
+[pi/2;pi] : sin décroissante
+
+SENS de var de cos :
+[0;pi] : cos est strictement décroissante [t1 et t2 dans [0;pi], t1>t2 : cos(t1)>cos(t2)]
+[pi;2pi] : cos est strict croissant
+
+
+			
+					LES SIGNAUX SINUSOÏDAUX
+
+Un signal sinusoïdal peut s'écrire sous la forme suivante : 
+					s(t) = Acos(2pift + fi)
+- A est l'amplitude du signal, positive, expr en 
+- f est la fréquence, positive, en hertz Hz
+- fi est UNE phase à l'origine, en radians (rad) [en effet toutes les valeurs fi+2kpi avec k entier donnant le même angle]
+
+
+
+Ex de signal sinusoïdal : voir img lié
+A=1
+La periode se visualise entre 2val max par ex T=0.5s Donc f=2Hz
+s(0) = cos(fi) = racine(2)/2 donc fi = pi/4 (positive)
+
+	Effet des dif paramètres
+
+Frequence : la frequence étant l'inverse de la période, + le signal a une grande période - sa frequence est grande
+Amplitude : la même même si la periode change
+Phase à l'origine : plus le siganl se déplace à droite
+		    plus la phase à l'origine est petite,
+		    plus le signal est en retard temporel
+
+Avec la période
+Comme T = 1/f, on aura s(t)=Acos(2pift+fi) = Acos(2pi/T + fi)
+
+Avec la pulsation 
+Comme omega = 2pif, on aura s(t)=Acos(2pif+fi) = Acos(omegat+fi)
+
+Unité 
+T=1/f anec T en seconde et f en hertz !! toujours avoir T en s
+omega = 2pi/T avec omega rad/s (rad.s^-1), pi en rad et T en seconde
+
+Avec la fct SINUS
+s(t) = Acos(2pift+fi)
+or cos(x) = sin(x+pi/2)
+  donc s(t) = Acos(2pift+fi) = Asin(2pift+fi+pi/2) = Asin(2pift+fi') avec fi'=fi+pi/2
+	il suffit d'ajouter pi/2 à la phase d'origine 
+
+Déphasageet retard entre 2 signaux sinusoïdaux de même fréquence
+s1(t)=A1cos(2pift+FI1)
+S2(T)=A2cos(2pift+fi2)
+
+
+
+
+
+Les max et min coïncident : les signaux oscillent conjointement
+Cela signifie que les deux signaux sont proportionels
+
+Signaux en opposition de phase : deltafi = pi
+	le maximum coïncide avec le minimum de l'autre
+
+
+Signaux en quadrature de phase deltafi=pi/2
+le max coïncide avec le passage par 0 de l'autre signal (dif amplitude)
+
+
+Retard temporel
+s1(t)=A1cos(2pift+fi)
+s2(t)=A2cos(2pif(t+tau)+fi)
+Ainsi s2 est en avance sur s1 de tau
+tau est la durére à ajouter à la variable
+
+
+
+Comment determiner un déphasage
+s1(t)=A1cos(2pift+fi) 
+s2(t)=A2A2cos(2pift+deltafi)
+s1 est déphasé de deltz fi et tau
+	s(t)=A2cos(t+deltafi/2pif 
+
+On a donc la relation tau=deltafi/2pif
+		      deltafi = 2pift
+
+utilité: nobreux instrument permet la mesure du temps mais pas directement la phase
+
+passage radian à degrès : 360 * 
+
+Dans la pratique
+Cherche le déphasage de s2 par rapport à s1 tous deux frequence f = 2Hr.
+On prend un instant de réf t1 sur s1 par exp un max
+on cherche un instant qnalugueeeeeee t2 sur s2 :7
+on le choisit le  plus proche de l'origine : si le max le plus proche est negatif on est en avance donc on aura un fi positif et sur le plus proche max est positif on est en retard donc fi sera négatif
+
+
+
+Phase à l'origine (diapo 67)
+La phase à l'origine d'un signal s peut être interprétée comme étant le déphasage avec un signal ficif présentant son maximum e t=0, f=2Hz
+fi sera positive. on prend le fi le plus proche de celui que serai atteint en 0
+tau = 1/16s donc fi=2pift=2pi*2*1/16=pi/4
+La phase à l'origine est donc pi/4
+
+ex
+max en 0, phase à l'orgine après 0 donc fi=-pi/4
+
+
+Revoir cette partie et en faire une fiche
+
+_________________________
