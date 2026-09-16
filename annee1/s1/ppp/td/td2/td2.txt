@@ -20,3 +20,107 @@ En parallele :
 
 question 12
 Pour une installation optimal le mieux est de mettre en serie deux bateries et ensuite mettre les deux duo en derivation. L'interer de demarer avec 24V plutôt que les 12V necessaire au bon fonctionnement des composants electriques est que vu que le camion est très lours les premières seconde sont instable donc demarer avec plus de courant pour etre sur d'avoir le minimum demander
+
+question 35
+
+V = 18V
+!!!! DESSINER LES TENTIONS SUR LES SCHEMATS
+
+a) Req = R1+R2+R3 = 4+1+4 = 9HOM
+
+b) U=Reqi <=> i = U/R 
+	  <=> i = 18/9
+	  <=> i = 2A
+
+c) Chute de potentiel : Vr3 = R3.I = 4.2 = 8V
+			Vr2 = -R2.I = -1.2 = -2V
+			Vr1 = R1.I = 4.2 = 8V
+[verification : E-Vr3+Vr2-Vr1 = 18 - 8 -2 - 8 = 0 c'est bon]
+
+d) Pr1 = Vr1.I = 8.2 = 16W
+	 R1.I² = 4.2² = 16W
+	 Vr1²/R1 = 8²/4 = 16W
+   Pr2 = Vr2.I = 2.2 = 4W
+	 R2.I² = 1.2² = 4W
+	 Vr2²/R2 = 2²/1 = 4W
+   Pr3 = Vr3.I = 8.2 = 16W
+
+Pfournie = E.I = 18*2 = 36W
+Pfourni=Pr1+Pr2+Pr3
+
+
+
+Exercice 36
+
+Schemat en série + sens courant : de R5 à R4, R4 à V2, V2 à R3 …
+V1 = 12 V
+V2 = 24V
+Vtot = V2-V1 = 12V
+
+R1= 10kohm  R2= 20kohm  R3= 10kohm  R4= 10kohm  R5= 10kohm
+  = 10 000ohm = 20 000ohm = 10 000ohm = 10 000ohm = 10 000ohm
+Req = R1+R2+R3+R4+R5 = 60kohm = 60 000ohm
+
+I=E/Req = 12/60.10^3 = 0.2 .10^(-3)
+
+Pfournie = 12*0.2.10^-3=0.24*10^-3W=0.24mW
+
+Vr1 = [R1/(R1+R2+R3+R4+R5)]*E = 2V
+Vr2 = [R2/Req]*E = 20000/60000 * 12 = 1/3*12 = 6V
+Vr3 = 2V
+Vr4 = 2V
+Vr5 = [R5/(R1+R2+R3+R4+R5)]*E = 2V
+
+Pr2 = Vr2.I = 0.8mW
+
+
+
+Exercice 37
+
+I3 = I1 + I2
+
+V1-Vr1-Vr2 = 0
+V1-R1(I1+I2)-R2I1=0
+	<=> V1 = R1(I1+I2)+R2I1
+
+Vr1 = R1(I1+I2)
+Vr2 = R2I2
+
+V2-Vr1-Vr3 = 0
+	<=> v2 = Vr1+Vr3
+	<=> V2 = R1(I1+I2)+R3I2
+
+Inconnue : I1 et I2
+
+V1 = I1(R1+R2)+I2R1
+V2 = I1R1+I2(R1+R3)
+
+
+Théorème de supperposition : 
+Quand on a deux piles, on éteint une pile et on fait l'etude avec une seule pile, puis on fait la même chose avec la deuxieme pile puis on additionne les resultats
+
+
+1/ On eteint V2
+	
+	Req13 = R1R3/(R1+R3) = 666.67 ohm
+	I'1 = V1/Req12*R2 = 0.95*10^-3
+
+	I'3 = I'1 * G1/(G1+G3) = 0.3*10^-3 A
+(I'3 est le courant present dans la maille comptenant R1 et R3)
+avec G2 = 1/R1
+     G3 = 1/R3
+
+2/ On eteint V1
+	
+Même methode que pour 1/ avec la recuperation de Req12 et etude de I'2 et I'3[attention ne pas oublier la maille R1 et R3]
+
+Req=R1R2/(R1+R2) = 2.10^6/3.10^3=0.667.10^3ohm
+I''2 = V2/(Req12+R2) = 1.4/1.667.10^3=0.84.10^-3
+
+CALCUL I''3 :
+I''3=(1/G1)/((1/G1)+(1/G2)).I''2
+    =R1/(R1+R2).I''2
+    =0.28.10^-3A
+
+3/ Solution de I3
+	I3=I'3+I''3

@@ -1,4 +1,4 @@
-						TD4
+BUT 1 RTBUT 1 RT						TD4
 				Applications de Logique Combinatoire
 
 
@@ -39,7 +39,17 @@ s = nx.ny.nz + nx.y.z + x.ny.z + x.y.nz
 2) Récepteur : Constr un syst à la recep qui permet d'all une LED en cas d'erreur d'imparité
 
 emetteur : 0 = impaire; 1 = pair -> erreur d'imp = 1 allumer LED ssi s = 1
+entrée => x y z s  ||| sortie => delta : si pas d'erreur 1 sinon
 
+x y z s || delta
+0 0 0 1 ||   1
+0 0 1 0 ||   0
+0 1 0 0 ||   0
+0 1 1 1 ||   1
+1 0 0 0 ||   0
+1 0 1 1 ||   1
+1 1 0 1 ||   1
+1 1 1 0 ||   0
 	
 	I/2) CODE de Hamming
 

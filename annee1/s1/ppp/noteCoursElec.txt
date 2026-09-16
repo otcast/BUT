@@ -58,5 +58,5 @@ U=1/Geq .I = 1/(G1+G2+G3) .I
 
 
 
-
+intensiter/COURANT = I TENTION = V
 SAE lier : r116 (je crois)
