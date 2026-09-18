@@ -1,0 +1,145 @@
+				TD3
+	Exercices sur les lois générales en courant continu
+
+
+Exercice 1
+
+u1 = 15V
+u2 = 5V
+u3 = 10V
+i1 = 3A
+i3 = 2A
+
+1/ calcul de i2
+
+i3-i1=i2
+2-3=-1A
+i2 = -1A
+
+2/ Determinez u4 et u5
+
+U1 = Uam
+U3 = Ubm
+
+Methode 1
+U4 = Uab = Ua-Ub = Uam-Ubm = u1-u3 = 15-10 = 5V
+U4 = 5V
+
+Methode 2
+u1=u3+u4
+u4=u1-u3
+u4=5V
+
+Determinez u5
+
+u3+u5-u2=0
+u5=u2-u3
+u5=5-10
+u5=-5V
+
+
+
+
+Exercice 2
+
+Uam=10V
+Ucm = 4V
+
+1/schemat canva
+
+2/schemat canva
+
+3/Equ de la maille EAMHA :
+E = Uam= Ubm+Uab
+
+4/E = Uam = Ufc + Ucg
+	  = Uac + Ucm
+
+5/Uam = Uac + Ucm
+  Uac = Uam - Ucm = 10 - 4 = 6V
+
+6/ Ubc=1V
+   Ubm - Ubc - Ucm = 0
+
+7/ partager enre 6/ & 8/
+
+8/ Ubm = Ubc + Ucm
+	= 1 + 4
+	= 5V
+
+9/ Uam = E = Uab + Ubm
+	Uab = Uam - Ubm
+		= 10 - 5
+		= 5 V
+
+10/ I = I1 + I2
+      = 5.10^-3 + 6.10^-3
+      = 11 mA
+
+Iv ⇒ I1 = I4
+   ⇒ I2 = I3
+
+
+
+Exercice 3 
+
+je connais ⇒ je peux calculer
+
+E & Ubm ⇒ Uab
+Ubm & R1 ⇒ I2
+I1 & I2 ⇒ I3
+I3=I4 & R4 ⇒ Ucm
+Ucm & Ubm ⇒ Ubc ⇒ R3
+
+E = Uab + Ubm
+⇒ Uab = E - Ubm
+⇒ Uab = 10 - 5
+⇒ Uab = 5V
+
+
+I2 = 0.05A
+I3 = 0.05A
+Ucm = 2.5V
+Ucb = 2.5V
+R3 = 50 ohm
+
+
+
+Exercice 4
+
+Schemat canva
+
+
+Exercice 5
+
+Uam=4V
+Uam = R4/(R4+R3) * 12
+12 = R4/(R4+10.10^-3) *12
+4(R4+R3) = 12R4
+4R3 = 8R4
+R4 = 4/8R3 = 1/2R3 = 5kohm
+
+Exercice 7
+
+U=RI
+
+P=U*I
+P=RI*I
+P=RI²
+P=10*05²
+P=2.5W
+
+
+W=P.t
+W=2.5*(30*60) = 4500J
+
+cette énergie est transformer en chaleur
+
+Exercice 9
+
+0P=2kW=2000w
+W=2*5=10 kwh
+passage en J
+W = 2000 * 5*60*60 = 2.10^3 * 5*36.10^2 = 36.10^6J = 36MJ
+
+1kwh = 1000*60*60=36.10^5J=3,6.10MJ

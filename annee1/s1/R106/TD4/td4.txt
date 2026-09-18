@@ -50,6 +50,31 @@ x y z s || delta
 1 0 1 1 ||   1
 1 1 0 1 ||   1
 1 1 1 0 ||   0
+
+Eq du ou exclusif : n(m0'(+)m1'(+)m2'(+)k')
+
+CORRECTION
+	m2' m1' m0' k' || LED
+	 0   0   0  0  ||  1
+	 0   0   0  1  ||  0
+	 0   0   1  0  ||  0
+	 0   0   1  1  ||  1
+	 0   1   0  0  ||  0
+	 0   1   0  1  ||  1
+	 0   1   1  0  ||  1
+	 0   1   1  1  ||  0
+	 1   0   0  0  ||  0
+	 1   0   0  1  ||  1
+	 1   0   1  0  ||  1
+	 1   0   1  1  ||  0
+	 1   1   0  0  ||  1
+	 1   1   0  1  ||  0
+	 1   1   1  0  ||  0
+	 1   1   1  1  ||  1
+
+eq de LED : nk'.nm0'.nm1'.nm2' + m2'.m1'.nm0'.k' + m2'.nm1'.m0'.nk' + m2'.nm1'.nm0'.k' + nm2'.m1'.m0'.nk' + nm2'.m1'.nm0'.k' + nm2'.nm1'.m0'.k'+ m2'.m1'.m0'.k
+		= n(m0' (+) m1' (+) m2' (+) k')
+
 	
 	I/2) CODE de Hamming
 
@@ -72,8 +97,4 @@ la disp est choisie de telle façon que le nb binaire (T3T2T1)b2 donne la positi
 1) 0100
 
 k1 k2 k3 m1 m2 m3 m4 || T3 T2 T12
-         0  1  0  0  ||
-
-
-
 
